@@ -1,1 +1,47 @@
+:root {
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  color: white;
+}
 
+body {
+  background-color: #121212;
+  margin: 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 1rem;
+  text-transform: uppercase;
+  line-height: 3rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+/************/
+/*** HOME ***/
+/************/
+.wrapper-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: white;
+  background-image: url("./images/Valley-sunset.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper-home p {
+  text-transform: uppercase;
+}
