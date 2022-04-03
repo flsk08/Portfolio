@@ -1,5 +1,5 @@
 import React from "react";
-import { fadeInDown, fadeInUp } from "react-animations";
+import { fadeInDown, fadeInUp, fadeIn } from "react-animations";
 import Radium, {StyleRoot} from "radium";
 
 import Navbar from "./Navbar";
@@ -11,22 +11,26 @@ export default function Home() {
       animationName: Radium.keyframes(fadeInDown, "fadeInDown"),
     },
     fadeInUp: {
-      animation: "2s",
+      animation: "7s",
       animationName: Radium.keyframes(fadeInUp, "fadeInUp"),
+    },
+    fadeIn: {
+      animation: "5s",
+      animationName: Radium.keyframes(fadeIn, "fadeIn"),
     }
   };
   return (
     <>
       <StyleRoot>
-        <div className="wrapper-home">
-          <div className="navLink navbar-container" style={styles.fadeInDown}>
+        <div className="wrapper-home" style={styles.fadeIn}>
+          <div className="navbar-container-home" style={styles.fadeInDown}>
             <Navbar />
           </div>
-          <h1>Hi, I'm Yen-Thi</h1>
+          <h1>Hi, I am Yen-Thi</h1>
           <p style={styles.fadeInUp}>
             A junior full-stack web & app developer
             <br />
-            with a passion for the back-end?
+            based in Southern Germany
           </p>
         </div>
       </StyleRoot>
