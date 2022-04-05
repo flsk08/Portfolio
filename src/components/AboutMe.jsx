@@ -13,6 +13,7 @@ export default function AboutMe() {
           <Navbar />
         </Fade>
       </div>
+
       <Grid container className="about-container">
         <Grid
           item
@@ -24,8 +25,8 @@ export default function AboutMe() {
             paddingLeft: "160px",
           }}
           xl={8}
-          lg={6}
-          md={6}
+          lg={7}
+          md={7}
           sm={12}
           xs={12}
         >
@@ -52,8 +53,8 @@ export default function AboutMe() {
             alignItems: "center",
           }}
           xl={4}
-          lg={6}
-          md={6}
+          lg={5}
+          md={5}
           sm={12}
           xs={12}
         >

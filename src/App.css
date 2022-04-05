@@ -79,7 +79,7 @@ h2 {
 /************/
 
 .about-container {
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 .about-container p {
@@ -88,6 +88,7 @@ h2 {
 
 .about-img {
   width: 50%;
+  border-radius: 100%;
 }
 
 /************/
@@ -95,7 +96,26 @@ h2 {
 /************/
 
 .skills-container-wrap {
+  margin: 0 6rem;
+  min-height: 70vh;
+}
+
+.skills-title {
   display: flex;
   justify-content: center;
-  min-height: 30vh;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-set {
+  display: flex;
+  width: 210px;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: #8892b017;
+  color: #8892b0;
 }
