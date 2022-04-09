@@ -40,8 +40,8 @@ h2 {
   box-sizing: border-box;
 }
 
-.navbar-container .active {
-  background: linear-gradient(90deg, #0a192f, #163c76);
+.navbar-container .colorActive {
+  background: linear-gradient(120deg, #0a192f, #07547a);
 }
 
 .navLink {

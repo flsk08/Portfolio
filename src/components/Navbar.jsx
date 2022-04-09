@@ -27,7 +27,7 @@ export default function Navbar() {
       <StyleRoot>
         <div className="navbar-container">
           <nav
-            className={navbar ? "navbar-container active" : "navbar-container"}
+            className={navbar ? "navbar-container colorActive" : "navbar-container"}
             style={styles.fadeInDown}
           >
             <NavLink className="navLink" to="/home">
