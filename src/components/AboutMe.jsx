@@ -1,19 +1,13 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Picture from "../images/LittleOne.jpg";
-
 import Fade from "react-reveal/Fade";
 import { Grid } from "@mui/material";
+
+import Picture from "../images/LittleOne.jpg";
+
 
 export default function AboutMe() {
   return (
     <>
-      {/* <div className="navbar-container-about">
-        <Fade right>
-          <Navbar />
-        </Fade>
-      </div> */}
-
       <Grid container className="about-container">
         <Grid
           item

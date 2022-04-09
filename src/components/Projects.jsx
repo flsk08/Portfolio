@@ -1,10 +1,30 @@
-import React from 'react'
+import React from "react";
+import Fade from "react-reveal/Fade";
+import ProjectDetails from "./ProjectDetails";
+import { projects } from "../data.js";
 
 export default function Projects() {
+
   return (
     <div className="projects-container-wrap">
       <div className="title">
-        <h2>Projects</h2>
+        <Fade up>
+          <h2>Projects</h2>
+        </Fade>
+      </div>
+      <div className="projects-container">
+        {projects.map((project, index) => (
+            <div key={index} className="project-set">
+              <ProjectDetails
+                img={project.img}
+                title={project.title}
+                description={project.description}
+                tools={project.tools}
+                link={project.link}
+                github={project.github}
+              />
+            </div>
+        ))}
       </div>
     </div>
   );
