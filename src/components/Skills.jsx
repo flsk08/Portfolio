@@ -22,7 +22,7 @@ export default function Skills() {
   return (
     <>
       <div className="skills-container-wrap">
-        <div className="skills-title">
+        <div className="title">
           <Fade up>
             <h2>Skills & Tools</h2>
           </Fade>

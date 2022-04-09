@@ -8,11 +8,11 @@ import { Grid } from "@mui/material";
 export default function AboutMe() {
   return (
     <>
-      <div className="navbar-container-about">
+      {/* <div className="navbar-container-about">
         <Fade right>
           <Navbar />
         </Fade>
-      </div>
+      </div> */}
 
       <Grid container className="about-container">
         <Grid
@@ -20,9 +20,9 @@ export default function AboutMe() {
           sx={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "center",
+            // alignItems: "center",
             justifyContent: "center",
-            paddingLeft: "160px",
+            paddingLeft: "150px",
           }}
           xl={8}
           lg={7}
