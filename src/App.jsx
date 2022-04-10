@@ -1,4 +1,5 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
@@ -12,19 +13,13 @@ function App() {
   return (
     <ParallaxProvider>
       <div className="App">
-          <Home />
-          <div className="aboutMe-container">
-            <AboutMe />
-          </div>
-          <div className="skills-container">
-            <Skills />
-          </div>
-          <div className="projects-container">
-            <Projects />
-          </div>
-          <div className="contact-container">
-            <Contact />
-          </div>
+        <Navbar />
+        <Home />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     </ParallaxProvider>
   );

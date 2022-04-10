@@ -1,28 +1,22 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Picture from "../images/LittleOne.jpg";
-
 import Fade from "react-reveal/Fade";
 import { Grid } from "@mui/material";
+
+import Picture from "../images/LittleOne.jpg";
+
 
 export default function AboutMe() {
   return (
     <>
-      <div className="navbar-container-about">
-        <Fade right>
-          <Navbar />
-        </Fade>
-      </div>
-
       <Grid container className="about-container">
         <Grid
           item
           sx={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "center",
+            // alignItems: "center",
             justifyContent: "center",
-            paddingLeft: "160px",
+            paddingLeft: "150px",
           }}
           xl={8}
           lg={7}
