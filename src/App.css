@@ -149,11 +149,13 @@ h2 {
 .project-backside {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   height: 266px;
   background-color: #8892b017;
-  /* align-content: space-between; */
+  justify-content: space-between;
   color: #8892b0;
   padding: 0 1rem;
+  /* box-sizing: border-box; */
 }
 
 .project-title {
@@ -169,6 +171,7 @@ h2 {
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
+  padding-bottom: 0.5rem;
 }
 
 .project-links a {
@@ -178,4 +181,59 @@ h2 {
 
 .project-links a:hover {
   border-bottom: 2px solid #07547a;
+}
+
+/*********************/
+/**** MEDIA QUERY ****/
+/********************/
+
+/*ABOUT CONTAINER DOES NOT ACCEPT MEDIA QUERY*/
+/* @media screen and (max-width: 830px) {
+  .about-container Grid {
+    padding-left: 0;
+  }
+} */
+
+@media screen and (max-width: 700px) {
+  .project-backside {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .projects-container-wrap {
+    margin: 0;
+  }
+  .project-backside {
+    height: 250px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .skills-container-wrap {
+    margin: 0;
+  }
+  .projects-container-wrap {
+    margin: 0;
+  }
+  .project-backside {
+    height: 250px;
+  }
+  .project-links {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .projects-container-wrap {
+    margin: 0;
+  }
+  .project-backside {
+    height: 250px;
+    font-size: 0.8rem;
+  }
+  .project-links {
+    flex-wrap: wrap;
+  }
 }

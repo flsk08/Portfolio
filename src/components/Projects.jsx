@@ -14,16 +14,15 @@ export default function Projects() {
       </div>
       <div className="projects-container">
         {projects.map((project, index) => (
-            <div key={index} className="project-set">
-              <ProjectDetails
-                img={project.img}
-                title={project.title}
-                description={project.description}
-                tools={project.tools}
-                link={project.link}
-                github={project.github}
-              />
-            </div>
+            <ProjectDetails
+              key={index}
+              img={project.img}
+              title={project.title}
+              description={project.description}
+              tools={project.tools}
+              link={project.link}
+              github={project.github}
+            />
         ))}
       </div>
     </div>

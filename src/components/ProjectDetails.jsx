@@ -20,7 +20,7 @@ export default function ProjectDetails({
   return (
     <>
     <Fade up>
-    <div>
+    <div className="project-set">
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
         <div className="projects-gif-container" onClick={handleClick}>
           <img className="gif" src={img} alt="recipe-blog" />
