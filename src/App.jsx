@@ -7,11 +7,9 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   return (
-    <ParallaxProvider>
       <div className="App">
         <Navbar />
         <Home />
@@ -21,7 +19,6 @@ function App() {
         <Contact />
         <Footer />
       </div>
-    </ParallaxProvider>
   );
 }
 

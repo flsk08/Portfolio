@@ -184,7 +184,7 @@ h2 {
 }
 
 /*********************/
-/**** MEDIA QUERY ****/
+/**** MEDIA QUERIES ****/
 /********************/
 
 /*ABOUT CONTAINER DOES NOT ACCEPT MEDIA QUERY*/
@@ -204,6 +204,7 @@ h2 {
   .projects-container-wrap {
     margin: 0;
   }
+
   .project-backside {
     height: 250px;
     font-size: 0.9rem;
@@ -211,28 +212,49 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
+  .wrapper-home h1{
+    font-size: 2.5rem;
+  }
+
+  .wrapper-home p{
+    font-size: .9rem;
+  }
+
   .skills-container-wrap {
     margin: 0;
   }
+
   .projects-container-wrap {
     margin: 0;
   }
+
   .project-backside {
     height: 250px;
   }
+
   .project-links {
     flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 375px) {
+  .wrapper-home h1{
+    font-size: 2rem;
+  }
+
+  .wrapper-home p{
+    font-size: .6rem;
+  }
+
   .projects-container-wrap {
     margin: 0;
   }
+
   .project-backside {
     height: 250px;
     font-size: 0.8rem;
   }
+
   .project-links {
     flex-wrap: wrap;
   }
