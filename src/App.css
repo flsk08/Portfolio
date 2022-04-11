@@ -87,7 +87,7 @@ h2 {
 
 .about-container {
   min-height: 70vh;
-  margin: 2rem 0;
+  background-color: #8892b017;
 }
 
 .about-container p {
@@ -123,12 +123,12 @@ h2 {
   color: #8892b0;
 }
 
-/************/
+/****************/
 /*** PROJECTS ***/
-/************/
+/****************/
 
 .projects-container-wrap {
-  margin: 2rem 6rem;
+  margin: 2rem 0;
   min-height: 70vh;
 }
 
@@ -183,6 +183,43 @@ h2 {
   border-bottom: 2px solid #07547a;
 }
 
+/****************/
+/*** CONTACT ***/
+/***************/
+
+.contact-container-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-container p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #8892b0;
+}
+
+.contact-links a {
+  margin: 1.5rem;
+}
+
+.footer-container-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: .9rem;
+  height: 40px;
+  margin-top: 1rem;
+  background-color: #8892b017;
+}
 /*********************/
 /**** MEDIA QUERIES ****/
 /********************/
@@ -193,16 +230,28 @@ h2 {
     padding-left: 0;
   }
 } */
+@media screen and (max-width: 1000px){
+  .contact-container-wrap {
+    margin: 0 1rem;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .project-backside {
     height: 320px;
+  }
+  .contact-container-wrap {
+    margin: 0 1rem;
   }
 }
 
 @media screen and (max-width: 540px) {
   .projects-container-wrap {
     margin: 0;
+  }
+
+  .contact-container-wrap {
+    margin: 0 1rem;
   }
 
   .project-backside {
@@ -212,16 +261,20 @@ h2 {
 }
 
 @media screen and (max-width: 430px) {
-  .wrapper-home h1{
+  .wrapper-home h1 {
     font-size: 2.5rem;
   }
 
-  .wrapper-home p{
-    font-size: .9rem;
+  .wrapper-home p {
+    font-size: 0.9rem;
   }
 
   .skills-container-wrap {
     margin: 0;
+  }
+
+  .skill-set {
+    margin: 1rem 0;
   }
 
   .projects-container-wrap {
@@ -238,12 +291,16 @@ h2 {
 }
 
 @media screen and (max-width: 375px) {
-  .wrapper-home h1{
+  .wrapper-home h1 {
     font-size: 2rem;
   }
 
-  .wrapper-home p{
-    font-size: .6rem;
+  .wrapper-home p {
+    font-size: 0.65rem;
+  }
+
+  .skill-set {
+    margin: 1rem 0;
   }
 
   .projects-container-wrap {

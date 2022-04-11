@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import Fade from "react-reveal/Fade";
-import ReactTooltip from "react-tooltip";
 
 
 export default function ProjectDetails({
@@ -25,12 +24,10 @@ export default function ProjectDetails({
           <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className="projects-gif-container" onClick={handleClick}>
               <img
-                data-tip="Click to flip"
                 className="gif"
                 src={img}
                 alt="recipe-blog"
               />
-              <ReactTooltip />
             </div>
             <div className="project-backside" onClick={handleClick}>
               <div className="project-info">
