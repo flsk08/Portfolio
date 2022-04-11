@@ -230,10 +230,18 @@ h2 {
     padding-left: 0;
   }
 } */
+@media screen and (max-width: 1000px){
+  .contact-container-wrap {
+    margin: 0 1rem;
+  }
+}
 
 @media screen and (max-width: 700px) {
   .project-backside {
     height: 320px;
+  }
+  .contact-container-wrap {
+    margin: 0 1rem;
   }
 }
 
