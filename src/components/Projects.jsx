@@ -6,7 +6,7 @@ import { projects } from "../data.js";
 export default function Projects() {
 
   return (
-    <div className="projects-container-wrap">
+    <div className="projects-container-wrap" id="projects">
       <div className="title">
         <Fade up>
           <h2>Projects</h2>

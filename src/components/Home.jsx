@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       <StyleRoot>
-        <div className="wrapper-home" style={styles.fadeIn}>
+        <div className="wrapper-home" style={styles.fadeIn} id="home">
           <h1>Hi, I am Yen-Thi</h1>
           <p style={styles.fadeInUp}>
             A junior full-stack web & app developer

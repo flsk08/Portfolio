@@ -9,7 +9,8 @@ export default function Skills() {
     const getSkills = async () => {
       try {
         const resp = await axios.get(
-          "http://localhost:8000/skills_and_tools"
+          "http://localhost:3000/skills_and_tools"
+          // "https://portfolio-yth.herokuapp.com/skills_and_tools"
         );
         console.log(resp.data);
         setSkillsData(resp.data);
@@ -21,7 +22,7 @@ export default function Skills() {
   }, []);
   return (
     <>
-      <div className="skills-container-wrap">
+      <div className="skills-container-wrap" id="skills_and_tools">
         <div className="title">
           <Fade up>
             <h2>Skills & Tools</h2>
