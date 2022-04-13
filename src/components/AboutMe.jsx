@@ -8,7 +8,7 @@ import Picture from "../images/LittleOne.jpg";
 export default function AboutMe() {
   return (
     <>
-      <Grid container className="about-container">
+      <Grid container className="about-container" id="aboutme">
         <Grid
           item
           sx={{

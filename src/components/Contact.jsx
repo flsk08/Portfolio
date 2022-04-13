@@ -6,7 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export default function Contact() {
   return (
-    <div className="contact-container-wrap">
+    <div className="contact-container-wrap" id="contact">
       <div className="title">
         <Fade up>
           <h2>Contact</h2>

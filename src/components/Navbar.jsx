@@ -27,10 +27,18 @@ export default function Navbar() {
       <StyleRoot>
         <div className="navbar-container">
           <nav
-            className={navbar ? "navbar-container colorActive" : "navbar-container"}
+            className={
+              navbar ? "navbar-container colorActive" : "navbar-container"
+            }
             style={styles.fadeInDown}
           >
-            <NavLink className="navLink" to="/home">
+            <a href="#home">Home</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#skills_and_tools">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+            {/* <NavLink className="navLink" to="/home">
               Home
             </NavLink>
             <NavLink className="navLink" to="/aboutme">
@@ -44,7 +52,7 @@ export default function Navbar() {
             </NavLink>
             <NavLink className="navLink" to="/contact">
               Contact
-            </NavLink>
+            </NavLink> */}
           </nav>
         </div>
       </StyleRoot>
