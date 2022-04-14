@@ -9,8 +9,8 @@ export default function Skills() {
     const getSkills = async () => {
       try {
         const resp = await axios.get(
-          "http://localhost:3000/skills_and_tools"
-          // "https://portfolio-yth.herokuapp.com/skills_and_tools"
+          // "http://localhost:8000/skills"
+          "https://portfolio-yth.herokuapp.com/skills"
         );
         console.log(resp.data);
         setSkillsData(resp.data);
