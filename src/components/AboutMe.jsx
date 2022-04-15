@@ -4,7 +4,6 @@ import { Grid } from "@mui/material";
 
 import Picture from "../images/Profilbild.jpeg";
 
-
 export default function AboutMe() {
   return (
     <>
@@ -29,17 +28,19 @@ export default function AboutMe() {
               <h2>About Me</h2>
               <p>
                 After majoring in Korean Studies and English Studies, I began my
-                career as a recruiter and account manager. I soon realized that
-                I needed a career change that would allow me to be more
-                creative. Most importantly, I wanted to do something where it is
-                possible for me to continously learn and grow. I love to learn
-                new things and I am always looking for new challenges. I am a
-                fast learner and I am always eager to learn new things. Due to
-                my huge interest in the latest technologies and innovations, I
-                decided to pursue a career in the tech industry. Therefore, I
-                participated in a bootcamp at WBS Coding School to become a
-                Full-Stack Web & App Developer. Coding gives me exactly what I
-                am looking for.
+                career as a recruiter and account manager.
+                <br />
+                I soon realized that I needed a career change that would allow
+                me to be more creative. Most importantly, I wanted to do
+                something where it is possible for me to continously learn and
+                grow. I am eager to learn new things and I am always looking for new
+                challenges.
+                <br /> <br />
+                Due to my huge interest in the latest technologies and
+                innovations, I decided to pursue a career in the tech industry.
+                Therefore, I participated in a bootcamp at WBS Coding School to
+                become a Full-Stack Web & App Developer. Coding gives me exactly
+                what I am looking for.
               </p>
             </Fade>
           </Grid>
