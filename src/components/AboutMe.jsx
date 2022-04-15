@@ -8,7 +8,8 @@ import Picture from "../images/LittleOne.jpg";
 export default function AboutMe() {
   return (
     <>
-      <Grid container className="about-container" id="aboutme">
+      <Grid container className="about-container-wrapper" id="aboutme">
+        <div className="about-container">
         <Grid
           item
           sx={{
@@ -16,7 +17,7 @@ export default function AboutMe() {
             flexDirection: "column",
             // alignItems: "center",
             justifyContent: "center",
-            paddingLeft: "150px",
+            // paddingLeft: "150px",
           }}
           xl={8}
           lg={7}
@@ -56,6 +57,7 @@ export default function AboutMe() {
             <img className="about-img" src={Picture} alt="aboutme" />
           </Fade>
         </Grid>
+        </div>
       </Grid>
     </>
   );
