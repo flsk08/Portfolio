@@ -20,7 +20,7 @@ export const projects = [
     title: "IP Locator",
     description: "Simple IP locator with the goal to practice fetching APIs.",
     tools: "React.js, CSS3, git",
-    link: "https://ip-finder-project.netlify.app/",
+    link: "https://ip-locator-finder.netlify.app/",
     github: "https://github.com/flsk08/what-is-my-ip",
   },
   {
